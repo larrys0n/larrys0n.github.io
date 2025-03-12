@@ -11,11 +11,14 @@ body {
 h1 {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: medium;
 }
 
 a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: medium;
 }
