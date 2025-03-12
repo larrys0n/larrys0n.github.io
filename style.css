@@ -37,6 +37,7 @@ body {
 .sisältö {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .sisältö__tekstit {
