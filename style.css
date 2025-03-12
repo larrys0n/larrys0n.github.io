@@ -28,8 +28,8 @@
 body {
   margin: 0;
   font-family: RobotoMono;
-  -webkit-animation: bgcolor 20s infinite;
-  animation: bgcolor 10s infinite;
+  -webkit-animation: bgcolor 30s infinite;
+  animation: bgcolor 20s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
