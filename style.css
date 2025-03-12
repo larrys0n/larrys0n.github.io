@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "RobotoMono";
+  src: url("RobotoMono-VariableFont_wght.ttf")
+}
+
 body {
   margin: 0;
+  font-family: RobotoMono
 }
 
 h1 {
