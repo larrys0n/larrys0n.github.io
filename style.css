@@ -28,10 +28,7 @@
 body {
   margin: 0;
   font-family: RobotoMono;
-  -webkit-animation: bgcolor 30s infinite;
-  animation: bgcolor 20s infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+  background-color: black;
 }
 
 .sisältö {
@@ -45,7 +42,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0000005e;
   max-width: 50%;
   padding: 75px;
 }
@@ -57,13 +53,19 @@ h1 {
   font-size: x-large;
   text-align: center;
   padding: 25px 50px;
-  color: white;
+  -webkit-animation: bgcolor 30s infinite;
+  animation: bgcolor 20s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 a {
   display: flex;
   flex-direction: row;
+  -webkit-animation: bgcolor 30s infinite;
+  animation: bgcolor 20s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
   justify-content: center;
   font-size: large;
-  color: white;
 }
