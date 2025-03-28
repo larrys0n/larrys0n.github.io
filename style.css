@@ -4,25 +4,25 @@
 }
 
 @keyframes bgcolor {
-    0% {
-        color: #45a3e5;
-    }
+  0% {
+    color: #45a3e5;
+  }
 
-    30% {
-        color: #66bf39;
-    }
+  30% {
+    color: #66bf39;
+  }
 
-    60% {
-        color: #eb670f;
-    }
+  60% {
+    color: #eb670f;
+  }
 
-    90% {
-        color: #f35;
-    }
+  90% {
+    color: #f35;
+  }
 
-    100% {
-        color: #864cbf;
-    }
+  100% {
+    color: #864cbf;
+  }
 }
 
 body {
@@ -116,7 +116,7 @@ li {
 #sulje {
   display: flex;
   justify-content: end;
-  color:gainsboro !important;
+  color: gainsboro !important;
 }
 
 @media (max-width: 1275px) {
@@ -126,12 +126,12 @@ li {
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .sisältö__tekstit {
     padding: 75px 0;
     max-width: 100%;
   }
-  
+
   h1 {
     display: flex;
     flex-direction: row;
@@ -144,7 +144,7 @@ li {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
   }
-  
+
   h2 {
     display: flex;
     flex-direction: row;
@@ -153,7 +153,7 @@ li {
     text-align: center;
     padding: 25px 50px;
   }
-  
+
   p {
     display: flex;
     flex-direction: row;
@@ -163,7 +163,7 @@ li {
     padding-left: 0;
     font-size: 48px;
   }
-  
+
   a {
     display: flex;
     flex-direction: row;
@@ -175,17 +175,17 @@ li {
     font-size: 48px;
     text-align: center;
   }
-  
+
   .projektit {
     display: none;
   }
-  
+
   #projektit:target {
     display: flex;
     flex-direction: column;
     color: white !important;
   }
-  
+
   .projektit__linkki {
     color: white !important;
     flex: 1;
@@ -195,11 +195,11 @@ li {
     flex: 1;
     margin-top: 40px;
   }
-  
+
   ul {
     padding: 0;
   }
-  
+
   li {
     display: flex;
     margin: 0;
