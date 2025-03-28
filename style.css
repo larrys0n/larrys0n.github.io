@@ -113,6 +113,12 @@ li {
   margin: 0;
 }
 
+#sulje {
+  display: flex;
+  justify-content: end;
+  color:gainsboro !important;
+}
+
 @media (max-width: 1275px) {
   .sisältö {
     display: flex;
