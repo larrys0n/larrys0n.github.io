@@ -112,3 +112,91 @@ li {
   display: flex;
   margin: 0;
 }
+
+@media (max-width: 1275px) {
+  .sisältö {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .sisältö__tekstit {
+    padding: 75px 0;
+    max-width: 100%;
+  }
+  
+  h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 64px;
+    text-align: center;
+    padding: 25px 50px;
+    -webkit-animation: bgcolor 30s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+  
+  h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 64px;
+    text-align: center;
+    padding: 25px 50px;
+  }
+  
+  p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    font-size: 48px;
+  }
+  
+  a {
+    display: flex;
+    flex-direction: row;
+    -webkit-animation: bgcolor 30s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    justify-content: center;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .projektit {
+    display: none;
+  }
+  
+  #projektit:target {
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+  }
+  
+  .projektit__linkki {
+    color: white !important;
+    flex: 1;
+  }
+
+  .projektit__kielet {
+    flex: 1;
+    margin-top: 40px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+  }
+}
