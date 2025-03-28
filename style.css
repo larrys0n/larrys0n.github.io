@@ -116,7 +116,7 @@ li {
 #sulje {
   display: flex;
   justify-content: end;
-  color: gainsboro !important;
+  color: whitesmoke !important;
 }
 
 @media (max-width: 1275px) {
