@@ -35,6 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .sisältö__tekstit {
@@ -59,6 +60,24 @@ h1 {
   animation-direction: alternate;
 }
 
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: x-large;
+  text-align: center;
+  padding: 25px 50px;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding-left: 20px;
+}
+
 a {
   display: flex;
   flex-direction: row;
@@ -68,4 +87,28 @@ a {
   animation-direction: alternate;
   justify-content: center;
   font-size: large;
+  text-align: center;
+}
+
+.projektit {
+  display: none;
+}
+
+#projektit:target {
+  display: flex;
+  flex-direction: column;
+  color: white !important;
+}
+
+.projektit__linkki {
+  color: white !important;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin: 0;
 }
